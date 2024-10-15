@@ -7,13 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/1HlSjkqeXZWNszOTK0dLGDumpoXcYWes9
 """
 
-import pandas as pd
-from IPython.display import display
-info={'Name':['john','linda','frank'],'location':['newyork','kansas','newjersey']}
-data_pandas=pd.DataFrame(info)
-display(data_pandas)
-
 #making model iris dataset model
+#loading the model from sklearn
 from sklearn.datasets import load_iris
 iris_dataset=load_iris()
 print(type(iris_dataset))
